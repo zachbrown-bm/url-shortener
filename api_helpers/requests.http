@@ -1,0 +1,18 @@
+### Create Slug 1
+POST http://localhost:3000/urls
+Content-Type: application/json
+
+{ "url":  "https://www.penny-arcade.com/comic/2026/05/15/adjacency"}
+
+### Create Slug 2
+POST http://localhost:3000/urls
+Content-Type: application/json
+
+{ "url":  "https://www.amazon.ca/hz/mobile/mission/?_encoding=UTF8&p=sqUffYrHHuX0px3o0p2Z9YL2QwLE%2BuXDmgg%2BIGHq4NoTS6iwAAC0ur42oc4VyGwBqMimeE4j6o%2B%2FlHRYoeKjYUzKWKg1b1%2FfHK8WGCVACQf2vfAdD3Zq59XANDIgZML%2BM6PE%2FKIW8LYIXo33%2BvbLb0u%2BAP8wSK9kEGHjq0vegw5PY6FhdW1MEoTJQw84V%2FeMxzMg%2F5adJlwh5t4haNMTpKpG3tNPlr%2B6RrZxwc3aNXPojXJNrsoPIn7Pe1kRfiRFJs37pMZLKLPVtM0AVFxoAMtwM0rkkAVORQxVowoc8GEz1lRqk07JBZ4Afi9MhawK4R6HSxYW%2Bjc39a89jHT4md%2FQppWrNDsUKkpOJ5cVJ4RP%2B0wZKfRHM5CyWi4%2FY%2BuoaExQedZO5hKwFqcF23a6vHqwsBKuWaF1l9D25L8DXov7unOL3217CbTJG31vLdJm0c16OS0jXDYjSzCReUw0GhoK1ifP3K81%2BGk46oUagu2LbFn2umN3fuayKedu4kQCo2gLj9HsG5KPON5mkIe6d7vuqWYtRf5l0AT2jFxpiaLy2bTj0ngokytntlrQNIlZW0Ug7bxYrdr7XsDNDX8kwV4hDO1RkUwOuTb8nrF%2FVIaO9SQB3WL65WB8l46bJagDSrVTtk4GW2QpuIHMnE4I91JGio52UsY5of58lMsKwfc%2Fjw%2FaVwFROQ%3D%3D&pd_rd_w=fQx37&content-id=amzn1.sym.d841d3e6-5f21-41ea-be76-773d453eb887%3Aamzn1.symc.e7c424bb-9be4-4167-936e-a36632d9b9a8&pf_rd_p=d841d3e6-5f21-41ea-be76-773d453eb887&pf_rd_r=85EJTV3RHS4S0R86TWQF&pd_rd_wg=dWtjQ&pd_rd_r=51de24f6-7e61-4aac-a64c-1b53cc91376a&ref_=pd_hp_d_r_atf_ci_mcx_mr_hp_m_atf_epr"}
+
+### Get Slugs
+GET http://localhost:3000/urls
+
+### Delete Slug
+DELETE http://localhost:3000/xxx
+Accept: application/json
